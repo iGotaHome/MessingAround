@@ -21,16 +21,15 @@ body{
   margin: 0;
   z-index: 2;
   background-color: white;
+  position: absolute;
+  overflow: hidden;
 }
 h1{
-  position: absolute ;
+  position: fixed ;
   top: 50%;
   left: 50%;
   text-align:center;
   font-size: 10vw;
-  /* margin: auto; */
-  /* margin-top: 106px;
-  margin-bottom: 137px; */
   font-family: Raleway;
   font-weight: 900;
   line-height: 270px;
@@ -40,5 +39,6 @@ h1{
   text-indent: 130px;
 }
 .Opt{
-  color: white
+  color: white;
+  position: absolute;
 }
