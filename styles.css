@@ -14,38 +14,88 @@ body{
   z-index: 1;
   background-color: black;
   position:fixed;
+  display: flex;
+  justify-content: center;
 }
 .white_page{
   width: 100vw;
-  height: 80vh;
+  height: 75vh;
   margin: 0;
   z-index: 2;
   background-color: white;
   position: absolute;
   overflow: hidden;
 }
-h1{
+.Drk{
   position: static ;
   top: 50%;
   left: 50%;
   text-align:center;
-  font-size: 15vw;
+  font-size: 30vh;
   font-family: Raleway;
   font-weight: 900;
   line-height: 270px;
   letter-spacing: 130px;
   margin: 0;
   text-indent: 130px;
+  margin-bottom: 350px;
 }
 .Opt{
   color: white;
   position: absolute;
   transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  text-align:center;
+  font-size: 30vh;
+  font-family: Raleway;
+  font-weight: 900;
+  line-height: 270px;
+  letter-spacing: 20px;
+  margin: 0;
+  text-indent: 20px;
 }
 .container{
   display: flex; 
   justify-content: center; 
   align-items: center; 
   width: 100vw; 
-  height: 100vh
+  height: 100vh;
+  flex-direction: column;
+}
+.contain_clock{
+  width: 100vw;
+  margin-bottom: 100px;
+}
+.clock{
+  height: 210px;
+  width: 210px;
+  margin: 38px auto;
+  margin-bottom: 0;
+  display: block;
+}
+.red_box{
+  background-color: red;
+  height: 56px;
+  width: 244px;
+  align-self:flex-end;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+.red_text{
+  font-size: 17px;
+  margin: 0;
+  width: auto;
+  text-align: center;
+  color: white;
+  margin-top: 18px;
+}
+.bar{
+  width: 100vw;
+  height: 3.5vh;
+  background-color: red;
+  margin:0;
+  position: sticky;
+  top: 0;
+  z-index: 3;
 }
